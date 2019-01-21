@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Arge",
+            "request": "launch",
+            "mainClass": "Arge",
+            "projectName": "Kata-Java_1013e34c"
+        }
+    ]
+}
