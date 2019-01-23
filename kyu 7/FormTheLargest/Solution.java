@@ -3,11 +3,11 @@ public class Solution {
         String strN = String.valueOf(n);
         String sN = "";
         int arrayN[] = new int[strN.length()];
-        for (int i = 0; i < strN.length(); i += 2) {
+        for (int i = 0; i < strN.length(); i++) {
         	boolean flag = true;
 			int temp;
             arrayN[i] = Integer.parseInt(String.valueOf(strN.charAt(i)));
-            arrayN[i+1] = Integer.parseInt(String.valueOf(strN.charAt(i+1)));
+            //arrayN[i+1] = Integer.parseInt(String.valueOf(strN.charAt(i+1)));
 			while (flag){
 				flag = false;
 				for(int j=0; j<strN.length()-1; j++){
@@ -27,7 +27,7 @@ public class Solution {
         return n;
     }
 	public static void main (String[] args) {
-		System.out.println(String.valueOf(maxNumber(566797)));
+		System.out.println(String.valueOf(maxNumber(63792)));
 	}
 }
 
